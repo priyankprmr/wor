@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Wheels On Rent</title>
+        <link rel="shortcut icon" type="image/x-icon" href="../images/Tyre.png">
+        <link rel="stylesheet" href="../style/home.css">
+        <script src="https://kit.fontawesome.com/b38a2e296f.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="slickslider/css/slick-theme.css">
+        <link rel="stylesheet" href="slickslider/css/slick.css">
+    </head>
+    <body>
+        <div id="container">
+            <div class="navbar" id="navbar">
+                <img src="../images/wor.png" class="logo">
+                <nav>
+                    <ul>
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="pricing.html">Pricing</a></li>
+                        <li><a href="cars.html">Cars</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="#footer">About</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="top-arrow"><a href="#container"><i class="bi bi-arrow-up-square-fill"></i></a></div>
+            <div class="row">
+                <div class="col-1">
+                    <h2>You Rent A Lot<br>More Than A Car.</h2>
+                    <h3>You Can Rent Your Own Car</h3>
+                    <p>(Put On Rent/Have On Rent)</p>
+                    <h4>Grab It Now!</h4>
+                </div>
+                <div class="col-2">
+                    <img src="../images/porche.png" class="home-car">
+                    <div class="color-box"></div>
+                </div>
+            </div>
+            <!--reservation-->
+            <div class="reserve">
+                <div class="reserve-1">
+                    <form id="res-form" class="res-form">
+                        <h1>Reserve Your Car</h1>
+                        <p class="res-label">Pick-Up Location</p>
+                        <input type="text" class="res-in" placeholder="City, Airport, Station, etc">
+                        <p class="res-label">Drop-Off Location</p>
+                        <input type="text" class="res-in" placeholder="City, Airport, Station, etc">
+                        <p class="res-label">Pick-Up Date</p>
+                        <input type="date" class="res-in">
+                        <p class="res-label">Drop-Off Date</p>
+                        <input type="date" class="res-in">
+                        <p class="res-label">Pick-Up Time</p>
+                        <input type="time" class="res-in">
+                        <button type="submit" id="res-btn" class="res-btn">Rent A Car Now</button>
+                    </form>
+                </div>
+                <div class="reserve-2">
+                    <h2>Better Way to Rent Your Perfect Cars</h2>
+                    <div class="serv-a">
+                        <div class="serv-i">
+                            <div class="serv-icon"><i class="fa-solid fa-route"></i></div>
+                        </div>
+                        <div class="serv-i">
+                            <div class="serv-icon"><i class="fa-solid fa-handshake"></i></div>
+                        </div>
+                        <div class="serv-i">
+                            <div class="serv-icon"><i class="fa-solid fa-calendar-check"></i></div>
+                        </div>
+                    </div>
+                    <div class="serv-a">
+                        <div class="serv-i">
+                            <p>Choose Your Pickup<br>Location</p>
+                        </div>
+                        <div class="serv-i">
+                            <p>Select the Best Deal<br>For You</p>
+                        </div>
+                        <div class="serv-i">
+                            <p>Reserve Your Perfact<br>Rental Car</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="heading">
+                <h5 class="heading-1">WHAT WE OFFER</h5>
+                <h1 class="heading-2">Featured Vehicles</h1>
+            </div>
+            
+            <!---featured Cars-->
+            <div class="car-slider">
+                <div class="slider" id="slider">
+                    <div class="card">
+                        <div class="face face1">
+                            <div class="content">
+                                <div class="icon">
+                                    <h3 id="car-name">
+                                        <a href="#">Fortuner 4X4 Diesel</a>
+                                    </h3>
+                                    <img src="../images/fortuner.jpg">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="face face2">
+                            <div class="content">
+                                <h3 id="car-name">
+                                    <a href="#">Fortuner 4X4 Diesel</a>
+                                </h3>
+                                <div class="car-spec">
+                                    <div class="modal"><i class="fa-solid fa-car"></i><p>2019</p></div>
+                                    <div class="fuel-type"><i class="fa-solid fa-gas-pump"></i><p>DIESEL</p></div>
+                                    <div class="car-type"><i class="fa-solid fa-gear"></i><p>MANUAL</p></div>
+                                </div>
+                                <div class="rent-car">
+                                    <h3 id="car-price">$150/day</h3>
+                                    <a href="#"><button type="button" class="rent-btn">Rent Now!!</button></a>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="face face1">
+                            <div class="content">
+                                <div class="icon">
+                                    <h3 id="car-name">
+                                        <a href="#">Mahindra Thar LX 4-Str</a>
+                                    </h3>
+                                    <img src="../images/thar.jpg">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="face face2">
+                            <div class="content">
+                                <h3 id="car-name">
+                                    <a href="#">Mahindra Thar LX 4-Str</a>
+                                </h3>
+                                <div class="car-spec">
+                                    <div class="modal"><i class="fa-solid fa-car"></i><p>2017</p></div>
+                                    <div class="fuel-type"><i class="fa-solid fa-gas-pump"></i><p>PETROL</p></div>
+                                    <div class="car-type"><i class="fa-solid fa-gear"></i><p>AUTO</p></div>
+                                </div>
+                                <div class="rent-car">
+                                    <h3 id="car-price">$99/day</h3>
+                                    <a href="#"><button type="button" class="rent-btn">Rent Now!!</button></a>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="face face1">
+                            <div class="content">
+                                <div class="icon">
+                                    <h3 id="car-name">
+                                        <a href="#">Harrier XE Diesel</a>
+                                    </h3>
+                                    <img src="../images/harrier.jpg">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="face face2">
+                            <div class="content">
+                                <h3 id="car-name">
+                                    <a href="#">Harrier XE Diesel</a>
+                                </h3>
+                                <div class="car-spec">
+                                    <div class="modal"><i class="fa-solid fa-car"></i><p>2020</p></div>
+                                    <div class="fuel-type"><i class="fa-solid fa-gas-pump"></i><p>Diesel</p></div>
+                                    <div class="car-type"><i class="fa-solid fa-gear"></i><p>manual</p></div>
+                                </div>
+                                <div class="rent-car">
+                                    <h3 id="car-price">$105/day</h3>
+                                    <a href="#"><button type="button" class="rent-btn">Rent Now!!</button></a>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="face face1">
+                            <div class="content">
+                                <div class="icon">
+                                    <h3 id="car-name">
+                                        <a href="#">Ford Endeavour Titanium</a>
+                                    </h3>
+                                    <img src="../images/endeavour.jpg">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="face face2">
+                            <div class="content">
+                                <h3 id="car-name">
+                                    <a href="#">Ford Endeavour Titanium</a>
+                                </h3>
+                                <div class="car-spec">
+                                    <div class="modal"><i class="fa-solid fa-car"></i><p>2017</p></div>
+                                    <div class="fuel-type"><i class="fa-solid fa-gas-pump"></i><p>Diesel</p></div>
+                                    <div class="car-type"><i class="fa-solid fa-gear"></i><p>manual</p></div>
+                                </div>
+                                <div class="rent-car">
+                                    <h3 id="car-price">$120/day</h3>
+                                    <a href="#"><button type="button" class="rent-btn">Rent Now!!</button></a>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="face face1">
+                            <div class="content">
+                                <div class="icon">
+                                    <h3 id="car-name">
+                                        <a href="#"> suzuki swift VXi AMT</a>
+                                    </h3>
+                                    <img src="../images/swift.jpg">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="face face2">
+                            <div class="content">
+                                <h3 id="car-name">
+                                    <a href="#">suzuki Swift VXi AMT</a>
+                                </h3>
+                                <div class="car-spec">
+                                    <div class="modal"><i class="fa-solid fa-car"></i><p>2019</p></div>
+                                    <div class="fuel-type"><i class="fa-solid fa-gas-pump"></i><p>PETROL</p></div>
+                                    <div class="car-type"><i class="fa-solid fa-gear"></i><p>AUTO</p></div>
+                                </div>
+                                <div class="rent-car">
+                                    <h3 id="car-price">$70/day</h3>
+                                    <a href="#"><button type="button" class="rent-btn">Rent Now!!</button></a>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="face face1">
+                            <div class="content">
+                                <div class="icon">
+                                    <h3 id="car-name">
+                                        <a href="#">hyundai Verna SX 1.5 CRDi</a>
+                                    </h3>
+                                    <img src="../images/verna.jpg">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="face face2">
+                            <div class="content">
+                                <h3 id="car-name">
+                                    <a href="#">hyundai Verna SX 1.5 CRDi</a>
+                                </h3>
+                                <div class="car-spec">
+                                    <div class="modal"><i class="fa-solid fa-car"></i><p>2017</p></div>
+                                    <div class="fuel-type"><i class="fa-solid fa-gas-pump"></i><p>PETROL</p></div>
+                                    <div class="car-type"><i class="fa-solid fa-gear"></i><p>AUTO</p></div>
+                                </div>
+                                <div class="rent-car">
+                                    <h3 id="car-price">$90/day</h3>
+                                    <a href="#"><button type="button" class="rent-btn">Rent Now!!</button></a>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="heading">
+                <h5 class="heading-1">SERVICES</h5>
+                <h1 class="heading-2">Our All Services</h1>
+            </div>
+            <!--services-->
+            <div class="services">
+                <div class="serv-a">
+                    <div class="serv-i">
+                        <div class="serv-icon"><i class="fa-solid fa-headphones"></i></div>
+                    </div>
+                    <div class="serv-i">
+                        <div class="serv-icon"><i class="fa-solid fa-car"></i></div>
+                    </div>
+                    <div class="serv-i">
+                        <div class="serv-icon"><i class="fa-solid fa-map-location-dot"></i></div>
+                    </div>
+                    <div class="serv-i">
+                        <div class="serv-icon"><i class="fa-solid fa-user-check"></i></div>
+                    </div>
+                </div>
+                <div class="serv-a">
+                    <div class="serv-i">
+                        <p>24/7 Car Rental<br>Support</p>
+                    </div>
+                    <div class="serv-i">
+                        <p>Car Reservation<br>Anytime</p>
+                    </div>
+                    <div class="serv-i">
+                        <p>Lots Of Pickup<br>Locations</p>
+                    </div>
+                    <div class="serv-i">
+                        <p>Trusted By <br>Clients</p>
+                    </div>
+                </div>
+
+                <div class="serv-a">
+                    <div class="serv-i">
+                        <div class="serv-icon"><i class="fa-solid fa-route"></i></div>
+                    </div>
+                    <div class="serv-i">
+                        <div class="serv-icon"><i class="fa-solid fa-handshake"></i></div>
+                    </div>
+                    <div class="serv-i">
+                        <div class="serv-icon"><i class="fa-solid fa-calendar-check"></i></div>
+                    </div>
+                    <div class="serv-i">
+                        <div class="serv-icon"><i class="fa-solid fa-indian-rupee-sign"></i></div>
+                    </div>
+                </div>
+                <div class="serv-a">
+                    <div class="serv-i">
+                        <p>Choose Your Pickup<br>Location</p>
+                    </div>
+                    <div class="serv-i">
+                        <p>Select the Best Deal<br>For You</p>
+                    </div>
+                    <div class="serv-i">
+                        <p>Reserve Your Perfact<br>Rental Car</p>
+                    </div>
+                    <div class="serv-i">
+                        <p>Online Payment<br>Facility</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="heading">
+                <h5 class="heading-1">TESTIMONIAL</h5>
+                <h1 class="heading-2">Happy Clients</h1>
+            </div>
+
+            <!---reviews-->
+            <div class="review">
+                <div class="r-box">
+                    <div class="c-info">
+                        <div class="c-img"><img src="../images/danny.png"></div>
+                        <div class="c-name"><p>Danny Suthar</p></div>
+                    </div>
+                    <div class="r-text"><p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p></div>
+                </div>
+
+                <div class="r-box">
+                    <div class="c-info">
+                        <div class="c-img"><img src="../images/priyank.png"></div>
+                        <div class="c-name"><p>Priyank Parmar</p></div>
+                    </div>
+                    <div class="r-text"><p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p></div>
+                </div>
+
+                <div class="r-box">
+                    <div class="c-info">
+                        <div class="c-img"><img src="../images/dhruv.png"></div>
+                        <div class="c-name"><p>Dhruv Panchal</p></div>
+                    </div>
+                    <div class="r-text"><p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p></div>
+                </div>
+                <div class="r-box">
+                    <div class="c-info">
+                        <div class="c-img"><img src="../images/danny1.png"></div>
+                        <div class="c-name"><p>Dinesh Suthar</p></div>
+                    </div>
+                    <div class="r-text"><p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p></div>
+                </div>
+                <div class="r-box">
+                    <div class="c-info">
+                        <div class="c-img"><img src="../images/danny2.png"></div>
+                        <div class="c-name"><p>Danny Suthar</p></div>
+                    </div>
+                    <div class="r-text"><p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p></div>
+                </div>
+            </div>
+        </div>
+        
+        
+        <footer id="footer">
+            <div class="footer">
+                <div class="aboutus">
+                    <h2>About Us</h2>
+                    <p>hhwdhwe owhowhodwodo d wdhwodhowhdow dw dowhdowhdow dw dowhdowhdowwo
+                         hodowhdowodhowhdwohdowjw jdodjowd wd iow hdowhdohwodhowhdiowhdiohiowho
+                         wd wohdowhdowod wohow hohw odhowhdodwoidwodo ihfihihhh iygygugyggug
+                         oiwhdhwoow</p>
+                    <ul class="sci">
+                        <li class="facebook"><a href=""><img src="../images/facebook.png"></a></li>
+                        <li class="whatsapp"><a href=""><img src="../images/whatsapp.png"></a></li>
+                        <li class="instagram"><a href=""><img src="../images/instagram.png"></a></li>
+                        <li class="twitter"><a href=""><img src="../images/twitter.png"></a></li>
+                    </ul>
+                </div>
+                <div class="sec">
+                    <h2>Quick Links</h2>
+                    <ul>
+                        <li><a href="">FAQ</a></li>
+                        <li><a href="">Privacy Policy</a></li>
+                        <li><a href="">Helps</a></li>
+                        <li><a href="">Terms & Conditions</a></li>                       
+                    </ul>
+                </div>
+                <div class="contact">
+                    <h2>Contact Info</h2>
+                    <ul class="call">
+                        <li>
+                            <span><img src="../images/locate.png"></span>
+                            <p>E-103, Anand Vihar Flats
+                            <br>Tragad Road, Chandkheda-382424</p>
+                        </li>
+                        <li>
+                            <span><img src="../images/call.png"></span>
+                            <p><a href="tel:8460997269">+91 8460997269</a></p>
+                        </li>
+                        <li>
+                            <span><img src="../images/email.png"></span>
+                            <p><a href="mailto:312002danny@gmail.com">312002danny@gmail.com</a></p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        <div class="copyright">
+            <p>Copyright @ 2022 Wheels On Rent Team. All Rights Reserved.</p>
+        </div>
+        <script src="main.js"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" 
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <script src="slickslider/css/slick.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $('.review').slick({
+                infinite: true,
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 5000,
+                arrows: false,
+                dots: false
+                });
+            });
+        </script>
+    </body>
+</html>
